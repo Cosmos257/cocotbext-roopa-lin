@@ -40,7 +40,5 @@ A LIN frame consists of two main parts:
 - **Scoreboarding** to compare expected vs. actual DUT behavior  
 - **Protocol checks** for frame format, parity, and checksum correctness  
 
----
 
-## 📂 Repository Structure
 
