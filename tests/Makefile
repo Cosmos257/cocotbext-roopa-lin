@@ -1,18 +1,15 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
-
-# HDL sources
 VERILOG_SOURCES += $(PWD)/../hdl/crc64_o8.v
 VERILOG_SOURCES += $(PWD)/../hdl/lin_comm.v
 VERILOG_SOURCES += $(PWD)/../hdl/lin_resp.v
 VERILOG_SOURCES += $(PWD)/../hdl/lin_top.v
-
-# Targets
-all: lin
+VERILOG_SOURCES += $(PWD)/../hdl/lin_top_wrapper.v
+TOPLEVEL = lin_top_wrapper
+MODULE = lin_top_test
 
 lin:
-		rm -rf sim_build
-		$(MAKE) sim MODULE=lin_test TOPLEVEL=lin_top
+        rm -rf sim_build
+        $(MAKE) sim MODULE=$(MODULE) TOPLEVEL=$(TOPLEVEL)
 
-include $(shell cocotb-config --makefiles)/Makefile.simmake
-
+include $(shell cocotb-config --makefiles)/Makefile.sim
