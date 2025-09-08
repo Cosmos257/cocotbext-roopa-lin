@@ -3,7 +3,6 @@ from cocotb.clock import Clock
 from cocotb.triggers import RisingEdge, Timer, ReadOnly, FallingEdge
 import os
 import random
-import constraint
 from cocotb_coverage.coverage import CoverPoint, CoverCross, coverage_db
 
 
