@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1757405302" />
+    <testcase name="lin_top_test" classname="lin_top_test" file="C:/msys64/home/roopa/tests/lin_top_test.py" lineno="153" time="0.1430833339691162" sim_time_ns="44545.001" ratio_time="311322.0789894007" />
+  </testsuite>
+</testsuites>

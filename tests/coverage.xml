@@ -1,0 +1,49 @@
+<top abs_name="top" size="29" coverage="23" cover_percentage="79.31">
+  <prot size="15" coverage="9" cover_percentage="60.0" abs_name="top.prot">
+    <lin size="15" coverage="9" cover_percentage="60.0" abs_name="top.prot.lin">
+      <current size="3" coverage="3" cover_percentage="100.0" abs_name="top.prot.lin.current" weight="1" at_least="1">
+        <bin0 bin="Idle" hits="30" abs_name="top.prot.lin.current.bin0" />
+        <bin1 bin="HeaderTx" hits="30" abs_name="top.prot.lin.current.bin1" />
+        <bin2 bin="ResponseTx" hits="30" abs_name="top.prot.lin.current.bin2" />
+      </current>
+      <previous size="3" coverage="3" cover_percentage="100.0" abs_name="top.prot.lin.previous" weight="1" at_least="1">
+        <bin0 bin="Idle" hits="30" abs_name="top.prot.lin.previous.bin0" />
+        <bin1 bin="HeaderTx" hits="30" abs_name="top.prot.lin.previous.bin1" />
+        <bin2 bin="ResponseTx" hits="30" abs_name="top.prot.lin.previous.bin2" />
+      </previous>
+      <cross size="9" coverage="3" cover_percentage="33.33" abs_name="top.prot.lin.cross" weight="1" at_least="1">
+        <bin0 bin="('Idle', 'Idle')" hits="0" abs_name="top.prot.lin.cross.bin0" />
+        <bin1 bin="('Idle', 'HeaderTx')" hits="30" abs_name="top.prot.lin.cross.bin1" />
+        <bin2 bin="('Idle', 'ResponseTx')" hits="0" abs_name="top.prot.lin.cross.bin2" />
+        <bin3 bin="('HeaderTx', 'Idle')" hits="0" abs_name="top.prot.lin.cross.bin3" />
+        <bin4 bin="('HeaderTx', 'HeaderTx')" hits="0" abs_name="top.prot.lin.cross.bin4" />
+        <bin5 bin="('HeaderTx', 'ResponseTx')" hits="30" abs_name="top.prot.lin.cross.bin5" />
+        <bin6 bin="('ResponseTx', 'Idle')" hits="30" abs_name="top.prot.lin.cross.bin6" />
+        <bin7 bin="('ResponseTx', 'HeaderTx')" hits="0" abs_name="top.prot.lin.cross.bin7" />
+        <bin8 bin="('ResponseTx', 'ResponseTx')" hits="0" abs_name="top.prot.lin.cross.bin8" />
+      </cross>
+    </lin>
+  </prot>
+  <lin size="14" coverage="14" cover_percentage="100.0" abs_name="top.lin">
+    <pid size="3" coverage="3" cover_percentage="100.0" abs_name="top.lin.pid" weight="1" at_least="1">
+      <bin0 bin="low" hits="11" abs_name="top.lin.pid.bin0" />
+      <bin1 bin="medium" hits="9" abs_name="top.lin.pid.bin1" />
+      <bin2 bin="high" hits="10" abs_name="top.lin.pid.bin2" />
+    </pid>
+    <data_byte size="3" coverage="3" cover_percentage="100.0" abs_name="top.lin.data_byte" weight="1" at_least="1">
+      <bin0 bin="low" hits="35" abs_name="top.lin.data_byte.bin0" />
+      <bin1 bin="medium" hits="50" abs_name="top.lin.data_byte.bin1" />
+      <bin2 bin="high" hits="47" abs_name="top.lin.data_byte.bin2" />
+    </data_byte>
+    <data_len size="8" coverage="8" cover_percentage="100.0" abs_name="top.lin.data_len" weight="1" at_least="1">
+      <bin0 bin="1" hits="4" abs_name="top.lin.data_len.bin0" />
+      <bin1 bin="2" hits="4" abs_name="top.lin.data_len.bin1" />
+      <bin2 bin="3" hits="5" abs_name="top.lin.data_len.bin2" />
+      <bin3 bin="4" hits="3" abs_name="top.lin.data_len.bin3" />
+      <bin4 bin="5" hits="5" abs_name="top.lin.data_len.bin4" />
+      <bin5 bin="6" hits="1" abs_name="top.lin.data_len.bin5" />
+      <bin6 bin="7" hits="2" abs_name="top.lin.data_len.bin6" />
+      <bin7 bin="8" hits="6" abs_name="top.lin.data_len.bin7" />
+    </data_len>
+  </lin>
+</top>
